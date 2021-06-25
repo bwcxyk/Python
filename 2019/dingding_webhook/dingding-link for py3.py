@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-__author__ = 'Fighter.Kun'
+__author__ = 'YaoKun'
 __time__ = '2019/11/15 15:05'
 
 import sys
 
 from dingtalkchatbot.chatbot import DingtalkChatbot
 # WebHook地址
-webhook = 'https://oapi.dingtalk.com/robot/send?access_token=0d2f29c6e1cb0657dd67f16b0ee9a3d5ccd32100d050233dc6abfae8a46712af'
+webhook = 'https://oapi.dingtalk.com/robot/send?access_token=?'
 # 初始化机器人小丁
 xiaoding = DingtalkChatbot(webhook)
 # Link消息
