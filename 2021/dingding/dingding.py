@@ -9,10 +9,10 @@
 import time
 from dingtalkchatbot.chatbot import DingtalkChatbot, ActionCard, CardItem
 
-token = '2f55c21ae89f34f56cdef2c54748093'
+token = '2f55c21ae89f34f56cd'
 # WebHook地址
 webhook = 'https://oapi.dingtalk.com/robot/send?access_token=' + token
-secret = 'SEC28'  # 可选：创建机器人勾选“加签”选项时使用
+secret = 'SEC28e3066bb75fede98016468'  # 可选：创建机器人勾选“加签”选项时使用
 # 初始化机器人
 xiaoding = DingtalkChatbot(webhook, secret=secret)  # 方式二：勾选“加签”选项时使用（v1.5以上新功能）
 # at_mobiles = ['这里填写需要提醒的用户的手机号码，字符串或数字都可以']
